@@ -1,0 +1,30 @@
+/*Header*/
+#sperator{
+	height: 50px;
+    /* background: #0078ff; */
+    background: #00c6ff;
+}
+/*News*/
+#news{
+	padding-top: 50px;
+}
+.wrap-contain{
+
+}
+.wrap-news{
+
+}
+/*thumbnail*/
+.thumbnail-news{
+	text-align: center;
+}
+.thumbnail-news img{
+	width: 100%;
+	height: auto;
+}
+.text-news{
+
+}
+.text-news .containn{
+	width: 500px;
+}

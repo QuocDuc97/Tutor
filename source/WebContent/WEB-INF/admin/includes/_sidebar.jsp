@@ -23,7 +23,7 @@
 				class="fa fa-chevron-circle-down" aria-hidden="true"></i>
 		</a>
 			<ul id="demo_s5" class="collapse">
-				<li><a href="addposttype "><i class="fa fa-plus-square"
+				<li><a href="AddTutor "><i class="fa fa-plus-square"
 						aria-hidden="true"></i> Thêm mới</a></li>
 				<li><a href="listposttype "><i class="fa fa-list"
 						aria-hidden="true"></i> Danh sách</a></li>

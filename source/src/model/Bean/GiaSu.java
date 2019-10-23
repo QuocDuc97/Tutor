@@ -10,14 +10,14 @@ public class GiaSu {
 	private String soDienThoaiGS;
 	private String diaChiGS;
 	private String ngheNghiepGS;
-	private String noiLamViecGS;
-	private String thoiGianRanhGS;
+//	private String noiLamViecGS;
+//	private String thoiGianRanhGS;
 
 	public GiaSu() {
 	}
 
 	public GiaSu(String idGS, String hotenGS, String gioiTinhGS, String emailGS, String imageGS, String soDienThoaiGS,
-			String diaChiGS, String ngheNghiepGS, String noiLamViecGS, String thoiGianRanhGS) {
+			String diaChiGS, String ngheNghiepGS) {
 		super();
 		this.idGS = idGS;
 		this.hotenGS = hotenGS;
@@ -27,8 +27,7 @@ public class GiaSu {
 		this.soDienThoaiGS = soDienThoaiGS;
 		this.diaChiGS = diaChiGS;
 		this.ngheNghiepGS = ngheNghiepGS;
-		this.noiLamViecGS = noiLamViecGS;
-		this.thoiGianRanhGS = thoiGianRanhGS;
+		
 	}
 
 	public String getIdGS() {
@@ -95,20 +94,5 @@ public class GiaSu {
 		this.ngheNghiepGS = ngheNghiepGS;
 	}
 
-	public String getNoiLamViecGS() {
-		return noiLamViecGS;
-	}
-
-	public void setNoiLamViecGS(String noiLamViecGS) {
-		this.noiLamViecGS = noiLamViecGS;
-	}
-
-	public String getThoiGianRanhGS() {
-		return thoiGianRanhGS;
-	}
-
-	public void setThoiGianRanhGS(String thoiGianRanhGS) {
-		this.thoiGianRanhGS = thoiGianRanhGS;
-	}
 
 }

@@ -66,7 +66,6 @@ public class DatabaseConnect {
 		try {
 			PreparedStatement preparedStatement = conn.prepareStatement(sql);
 			rs = preparedStatement.executeQuery();
-			System.out.println("come on");
 			if (rs == null) {
 				index++;
 				return index;

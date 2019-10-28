@@ -4,13 +4,12 @@ import java.io.File;
 import java.io.IOException;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.Part;
 
 public class UploadFile {
 
-	public static final String url = "D:\\OneDrive\\GitHub\\Tutor\\Tutor\\WebContent";
+	public static final String url = "D:\\OneDrive\\GitHub\\Tutor\\source\\WebContent";
 
 	public static String upload(HttpServletRequest request) {
 ////		String appPath = request.getServletContext().getRealPath("");
@@ -59,6 +58,7 @@ public class UploadFile {
 				fileName = new File(fileName).getName();
 				result=getFolderUpload().getAbsolutePath() + File.separator + fileName;
 				part.write(result);
+				System.out.println("ghi file thanh cong");
 			}
 		} catch (IOException | ServletException e) {
 			// TODO Auto-generated catch block
@@ -81,7 +81,7 @@ public class UploadFile {
 	}
 
 	public static File getFolderUpload() {
-		File folderUpload = new File(System.getProperty("user.dir") + "/Uploads");
+		File folderUpload = new File(url + "/Uploads");
 		if (!folderUpload.exists()) {
 			folderUpload.mkdirs();
 		}

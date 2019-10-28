@@ -23,7 +23,7 @@
 <!-- Custom-Files -->
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Bootstrap-CSS -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/stylemyschool.css" rel='stylesheet' type='text/css' />
 <!-- Style-CSS -->
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <!-- Font-Awesome-Icons-CSS -->
